@@ -64,13 +64,13 @@ module.exports = function (config) {
       base: 'SauceLabs',
       browserName: 'Chrome',
       platform: 'OS X 10.10'
-    },
+    }, /*
     'SL_Firefox': {
       base: 'SauceLabs',
       browserName: 'Firefox',
       platform: 'Windows 8.1',
       version: '34'
-    },
+    },*/
     'SL_Firefox_Linux': {
       base: 'SauceLabs',
       browserName: 'Firefox',
@@ -117,12 +117,12 @@ module.exports = function (config) {
      browserName: 'iPhone',
      platform: 'OS X 10.10',
      version: '8.1'
-     },
-    'SL_Opera': {
+     },/*
+     'SL_Opera': {
       base: 'SauceLabs',
       browserName: 'opera',
       platform: 'Windows 7'
-    }, /*
+     },
      'SL_Opera_Linux': {
      base: 'SauceLabs',
      browserName: 'opera',
